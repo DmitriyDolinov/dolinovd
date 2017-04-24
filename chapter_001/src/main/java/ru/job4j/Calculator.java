@@ -19,12 +19,6 @@ public class Calculator {
     public void add(double first, double second) {
 		this.result = first + second;
     }
-    /**
-		* @return - возвращает значение вычисления сложения
-	*/
-    public double getResult() {
-        return this.result;
-    }
 	/**
 		* Конструктор, выврл строки в консоль.
 		* @param first - первое число.
@@ -33,12 +27,6 @@ public class Calculator {
 	public void substract(double first, double second) {
 		this.result = first - second;
 	}
-	  /**
-		* @return - возвращает значение вычисления вычитания
-	*/
-	 public double getResult1() {
-        return this.result;
-    }
 	/**
 		* Конструктор, выврл строки в консоль.
 		* @param first - первое число.
@@ -47,12 +35,6 @@ public class Calculator {
 	public void div(double first, double second) {
 		this.result = first / second;
 	}
-	  /**
-		* @return - возвращает значение вычисления деления
-	*/
-	 public double getResult2() {
-        return this.result;
-    }
 	/**
 		* Конструктор, выврл строки в консоль.
 		* @param first - первое число.
@@ -61,10 +43,10 @@ public class Calculator {
 	public void multiple(double first, double second) {
 		this.result = first * second;
 	}
-	  /**
-		* @return - возвращает значение вычисления умножения
+	    /**
+		* @return - возвращает значение вычисления сложения
 	*/
-	 public double getResult3() {
+    public double getResult() {
         return this.result;
     }
 }
